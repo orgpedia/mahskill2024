@@ -2,50 +2,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 38
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403141539323703.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:10 Errors=10 TableEmptyBodyCellError=10
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403141539323703.pdf: >शासन आदेशा क्रमांक< >कौविउ-२०२२/प्र.क्र. २९३/प्रशा-२<
-	elapsed_time:202403141539323703.pdf: 0.000108
-  exec_task: doc_translator_hf 
-    Paras: #23 Sentences: #52
-	[0]  #words: 182 #sentences: 50
-	After generate: 3 MB
-	[0]  #words: 265 #sentences: 35
-	After generate: 4 MB
-	[1]  #words: 171 #sentences: 7
-	After generate: 4 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403141950123003.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:19 Errors=19 TableEmptyBodyCellError=19
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403141950123003.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-३३१७/प्र.क्र.२१०/व्यशि-३<
-	elapsed_time:202403141950123003.pdf: 0.000077
-  exec_task: doc_translator_hf 
-    Paras: #55 Sentences: #0
-	[0]  #words: 258 #sentences: 45
-	After generate: 4 MB
-	[1]  #words: 277 #sentences: 23
-	After generate: 4 MB
-	[2]  #words: 47 #sentences: 2
-	After generate: 4 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403142005520103.pdf missing_cmaps: sakalmarathinormal, mangal, kokilabold
+	202403142005520103.pdf missing_cmaps: mangal, sakalmarathinormal, kokilabold
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -259,4 +216,4 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403142005520103.pdf --> para 202403142005520103.pdf:Page_idx: 2 1 <-> [(0, 0), (0, 1)]
-#docs: 38 #processed: 3
+#docs: 38 #processed: 1
