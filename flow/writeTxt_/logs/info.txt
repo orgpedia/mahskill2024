@@ -2,7 +2,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 41
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403142005520103.pdf missing_cmaps: mangal, kokilabold, sakalmarathinormal
+	202403142005520103.pdf missing_cmaps: sakalmarathinormal, mangal, kokilabold
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -216,56 +216,4 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403142005520103.pdf --> para 202403142005520103.pdf:Page_idx: 2 1 <-> [(0, 0), (0, 1)]
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403152013007003.pdf missing_cmaps: mangal, kokilabold, sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:2 Errors=2 TableEmptyBodyCellError=2
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403152013007003.pdf: >शासन निर्णय क्रमांक< >व्हीआयपी-२०२०/प्र.क्र.२१८/व्यशि-३<
-	elapsed_time:202403152013007003.pdf: 0.000084
-  exec_task: doc_translator_hf 
-    Paras: #57 Sentences: #0
-	[0]  #words: 260 #sentences: 53
-	After generate: 4 MB
-	[1]  #words: 229 #sentences: 22
-	After generate: 4 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403152325571403.pdf missing_cmaps: mangal, kokilabold, sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 16: आयटीआय-२०१२/प्र.क्र.७९/व्यशि-३ ==शासन पुरकपत्र क्रमांक : आयटीआय- २०१२/प्र.क्र.७९/व्यशि-३
-	extract_order_number:202403152325571403.pdf: >शासन पुरकपत्र क्रमांक< >आयटीआय-२०१२/प्र.क्र.७९/व्यशि-३<
-	elapsed_time:202403152325571403.pdf: 0.000748
-  exec_task: doc_translator_hf 
-    Paras: #27 Sentences: #0
-	[0]  #words: 203 #sentences: 33
-	After generate: 8 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403152329578203.pdf missing_cmaps: mangal, kokilabold, sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 16: आयटीआय-२०१२/प्र.क्र.७९/व्यशि-३ ==शासन शुध्दीपत्रक क्रमांक : आयटीआय- २०१२/प्र.क्र.७९/व्यशि-३
-	extract_order_number:202403152329578203.pdf: >शासन शुध्दीपत्रक क्रमांक< >आयटीआय-२०१२/प्र.क्र.७९/व्यशि-३<
-	elapsed_time:202403152329578203.pdf: 0.000758
-  exec_task: doc_translator_hf 
-    Paras: #27 Sentences: #0
-	[0]  #words: 197 #sentences: 36
-	After generate: 8 MB
-  exec_task: text_writer 
-#docs: 41 #processed: 4
+#docs: 41 #processed: 1
