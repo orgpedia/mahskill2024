@@ -1,8 +1,8 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-41
+45
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403142005520103.pdf missing_cmaps: sakalmarathinormal, mangal, kokilabold
+	202403142005520103.pdf missing_cmaps: kokilabold, mangal, sakalmarathinormal
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -216,4 +216,84 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403142005520103.pdf --> para 202403142005520103.pdf:Page_idx: 2 1 <-> [(0, 0), (0, 1)]
-#docs: 41 #processed: 1
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201452277203.pdf missing_cmaps: kokilabold, mangal, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201452277203.pdf: Unable to find order
+	elapsed_time:202403201452277203.pdf: 0.000029
+  exec_task: doc_translator_hf 
+    Paras: #40 Sentences: #0
+	[0]  #words: 258 #sentences: 48
+	After generate: 5 MB
+	[1]  #words: 90 #sentences: 7
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201457572503.pdf missing_cmaps: kokilabold, mangal, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201457572503.pdf: >शासन निर्णय क्रमांक< >कौविउ-२०२२/प्र.क्र.९४/प्रशा-१<
+	elapsed_time:202403201457572503.pdf: 0.000101
+  exec_task: doc_translator_hf 
+    Paras: #37 Sentences: #0
+	[0]  #words: 261 #sentences: 49
+	After generate: 5 MB
+	[1]  #words: 84 #sentences: 7
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201504241103.pdf missing_cmaps: kokilabold, mangal, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:423 Errors=423 TableEmptyBodyCellError=423
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201504241103.pdf: >शासन निर्णय क्रमांक< >मुवाढ-२०२३/प्र.क्र.१३८/व्यशि-१<
+	elapsed_time:202403201504241103.pdf: 0.000087
+  exec_task: doc_translator_hf 
+    Paras: #116 Sentences: #0
+	[0]  #words: 259 #sentences: 72
+	After generate: 5 MB
+	[1]  #words: 266 #sentences: 35
+	After generate: 5 MB
+	[2]  #words: 259 #sentences: 25
+	After generate: 5 MB
+	[3]  #words: 264 #sentences: 21
+	After generate: 5 MB
+	[4]  #words: 13 #sentences: 1
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201523372103.pdf missing_cmaps: kokilabold, mangal, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:291 Errors=291 TableEmptyBodyCellError=291
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201523372103.pdf: >शासन निर्णय क्रमांक< >मुवाढ-२०२३/प्र.क्र.१३८/व्यशि-१ (भाग-२)<
+	elapsed_time:202403201523372103.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #89 Sentences: #0
+	[0]  #words: 261 #sentences: 62
+	After generate: 5 MB
+	[1]  #words: 264 #sentences: 28
+	After generate: 5 MB
+	[2]  #words: 245 #sentences: 22
+	After generate: 5 MB
+  exec_task: text_writer 
+#docs: 45 #processed: 5
